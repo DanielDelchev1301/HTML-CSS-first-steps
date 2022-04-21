@@ -1,0 +1,25 @@
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+table, tr, td, th {
+    border:1px solid black;
+    border-collapse: collapse;
+}
+
+#absright {
+    margin-right: 0;
+    padding-left: 165px;
+}
+
+#total {
+    padding-left: 130px;
+}
+
+td, th {
+    padding-left: 10px;
+}
+
+.align {
+    text-align: right;
+}

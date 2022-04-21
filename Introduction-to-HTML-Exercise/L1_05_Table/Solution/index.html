@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Daily Steps</h2>
+    <table>
+        <thead>
+            <tr>
+                <th><strong>Name</strong></th>
+                <th><strong>Number</strong></th>
+                <th><strong>Distance</strong></th>
+                <th><strong>Total</strong></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="align">Suzie Q.</td>
+                <td class="align">134</td>
+                <td class="align">0.5 m</td>
+                <td class="align">67.0 m</td>
+            </tr>
+            <tr>
+                <td class="align">Jim D.</td>
+                <td class="align">121</td>
+                <td class="align">0.8 m</td>
+                <td class="align">96.8 m</td>
+            </tr>
+            <tr>
+                <td class="align">John P.</td>
+                <td colspan="3" id="absright">Absent</td>
+            </tr>            
+            <tr>
+                <td class="align">Frank L.</td>
+                <td class="align">218</td>
+                <td class="align">0.6 m</td>
+                <td class="align">130.8 m</td>
+            </tr>            
+            <tr>
+                <td class="align">Sally B.</td>
+                <td class="align">243</td>
+                <td class="align" rowspan="2">0.4 m</td>
+                <td class="align">97.2 m</td>
+            </tr>            
+            <tr>
+                <td class="align">Susan F.</td>
+                <td class="align">350</td>
+                <td class="align">140.0 m</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3" id="total">Group Total:</td>
+                <td class="align">391.8 m</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

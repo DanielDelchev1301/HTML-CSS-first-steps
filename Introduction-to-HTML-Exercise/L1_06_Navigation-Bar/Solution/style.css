@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+header {
+    background: #D3D3D3;
+    padding: 5px;
+}
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    margin: 10px;
+    color: #009900;
+    font-family: Helvetica, sans-serif;
+}
+
+ul {
+    text-align: center;
+}
+
+a:hover {
+    background: #009900;
+    color: white;
+    padding: 10px;
+    border-radius: 10%;
+}
